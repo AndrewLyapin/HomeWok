@@ -14,7 +14,7 @@ y = int(input("y = "))
 
 
 def find_point(x, y):
-    if x ==  0 and y == 0:
+    if x == 0 and y == 0:
         print("х и у не может быть равен 0")
     if x > 0 and y > 0:
         print("x =", x, "; y =", y, " -> 1 четверть")
@@ -24,4 +24,6 @@ def find_point(x, y):
         print("x =", x, "; y =", y, " -> 3 четверть")
     if x > 0 and y < 0:
         print("x =", x, "; y =", y, " -> 4 четверть")
+
+
 find_point(x, y)
